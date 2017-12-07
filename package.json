@@ -1,0 +1,20 @@
+{
+  "name": "neworld",
+  "version": "0.0.0",
+  "email": "vv7allaya@gmail.com",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/start",
+    "end": "node ./bin/end"
+  },
+  "repository" :
+  { "type" : "git",
+    "url" : "https://github.com/fakedous/openshift-nodejs-ex.git"
+  }
+  "dependencies": {
+  },
+  "devDependencies": {
+
+  },
+  "os" : [ "darwin", "linux" ]
+}
