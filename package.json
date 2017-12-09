@@ -7,14 +7,21 @@
     "start": "node ./bin/start",
     "end": "node ./bin/end"
   },
-  "repository" :
-  { "type" : "git",
-    "url" : "https://github.com/fakedous/openshift-nodejs-ex.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fakedous/openshift-nodejs-ex.git"
   }
   "dependencies": {
+    "node-sass": "*",
+    "pug":"*",
+    "gulp": ""
   },
   "devDependencies": {
 
   },
-  "os" : [ "darwin", "linux" ]
+  "engines": {
+    "node": "7.10.1",
+    "npm": "5.6.0"
+  },
+  "os": ["darwin", "linux"]
 }
